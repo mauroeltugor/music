@@ -1,0 +1,206 @@
+body{
+  font-family: Century 'Franklin Gothic Medium';
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header h1{
+  color: white;
+  font-size: 240px;
+  padding-top: 330px;
+  text-align: center;
+}
+
+header{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1060px;
+  background-image:url(../images/angel-jimenez.jpg);
+}
+
+
+
+.chispas{
+  margin: auto;
+  padding: 80px 80px;
+  font-size: 40px;
+  display: flex;
+}
+
+.chispas article{
+  margin-top: 140px;
+  margin-left: 140px;
+  margin-right: 180px;
+  width: 740px;
+}
+
+.chispas article a{
+  background: rgba(255, 25, 0, 0.805);
+  color: white;
+  border-radius: 34px;
+  margin: 10px;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+
+.chispas article a:hover{
+  background: rgba(0, 0, 0, 0.332);
+}
+
+.chispas article h1{
+  background: linear-gradient(to right, rgba(255, 51, 0, 0.772), rgb(255, 0, 179));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 70px;
+}
+
+.chispas article h2{
+  font-size: 70px;
+}
+
+.chispas img{
+  height: 800px;
+  margin-top: 70px;
+  margin-right: 120px;
+}
+
+
+.cantante{
+  margin: auto;
+  padding: 80px 80px;
+  font-size: 40px;
+  display: flex;
+}
+
+.cantante article{
+  margin-top: 78px;
+  margin-left: 60px;
+  width: 720px;
+}
+
+.cantante article a{
+  background: rgba(255, 21, 0, 0.802);
+  color: white;
+  border-radius: 34px;
+  margin: 10px;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+
+.cantante article a:hover{
+  background: rgba(0, 0, 0, 0.332);
+}
+
+.cantante article h1{
+  background: linear-gradient(to right, rgba(255, 51, 0, 0.772), rgb(255, 0, 179));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 70px;
+}
+
+.cantante article h2{
+  font-size: 70px;
+}
+
+.cantante img{
+  height: 800px;
+  margin-top: 10px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+
+.guitarrista{
+  margin: auto;
+  margin-top: 100px;
+  padding: 120px 80px;
+  font-size: 40px;
+  display: flex;
+  background-image:url(../images/john-raptis.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 780px;
+}
+
+.guitarrista article{
+  color: white;
+  margin-top: 110px;
+  margin-left: 970px;
+  width: 800px;
+}
+
+.guitarrista article a{
+  background: rgba(255, 21, 0, 0.815);
+  color: white;
+  border-radius: 34px;
+  margin: 10px;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+
+.guitarrista article a:hover{
+  background: rgba(0, 0, 0, 0.332);
+}
+
+.guitarrista article h1{
+  font-size: 70px;
+}
+
+.guitarrista article h2{
+  font-size: 70px;
+}
+
+
+.tabla{
+  background-color: rgba(255, 0, 0, 0.614);
+  color: white;
+  height: 10px;
+  text-align: left;
+  padding: 70px 390px;
+}
+
+.tabla table tr th{
+  width: 300px;
+  padding: 5px;
+}
+
+
+.final footer .clear{
+  clear: both;
+}
+
+.final hr{
+  width: 1120px;
+  margin: auto;
+  border-color: white;
+}
+
+.final footer .correo{
+  float: right;
+}
+
+.final footer .rep{
+  float: left;
+}
+
+.final{
+  background-color: rgba(255, 0, 0, 0.614);
+  padding-top: 110px;
+}
+
+.final footer{
+  font-size: 18px;
+  padding: 24px 400px;
+  color: white;
+}
+
+
+
+/*todo fue hecho en el pc del sena*/
